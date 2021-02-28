@@ -1,2 +1,2 @@
 # vacation weather api
-Welcome to an analysis of the weather of 500 cities around the world. I look at various factors to predict which cities are the most comfortable vacation spots. 
+Using citipy (https://github.com/wingchen/citipy) I was able to create a random array of coordinates that triggered citipy to choose the nearest city. From there data cleaning occured with pandas while matplotlib handled ploting the various metrics. Finally creating a list of nearby hotels with google apis and plotting them with gmaps led to the best vaction destinations globally!
